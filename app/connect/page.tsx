@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     title: "Connect with Lawrence Corso | Pluto Smoke Transmission",
     description:
       "Reach Lawrence 'Pluto Smoke' Corso for night-mode strategy, Earth home visions, and underdog alliances.",
-    url: "https://rumidesign.tech/connect",
+    url: "https://geniusanonymous.org/connect",
     type: "website",
   },
   twitter: {
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   alternates: {
-    canonical: "https://rumidesign.tech/connect",
+    canonical: "https://geniusanonymous.org/connect",
   },
 };
 

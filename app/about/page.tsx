@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: "About Lawrence Corso | Pluto Smoke Mission",
     description:
       "Learn how Lawrence 'Pluto Smoke' Corso protects the weirdos, underdogs, and Earth through visionary digital strategy.",
-    url: "https://rumidesign.tech/about",
+    url: "https://geniusanonymous.org/about",
     type: "profile",
   },
   twitter: {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   alternates: {
-    canonical: "https://rumidesign.tech/about",
+    canonical: "https://geniusanonymous.org/about",
   },
 };
 

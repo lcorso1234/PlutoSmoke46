@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 
-const portfolioUrl = "https://rumidesign.tech/portfolio";
+const portfolioUrl = "https://geniusanonymous.org/portfolio";
 
 export const metadata: Metadata = {
   title: "Lawrence Corso Portfolio Highlights",

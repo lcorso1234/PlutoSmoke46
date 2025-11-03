@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Lawrence Corso Night Vision Studio",
     description:
       "Discover how Lawrence 'Pluto Smoke' Corso powers Earth home ecosystems, underdog movements, and visionary crowdfunding campaigns from his nocturnal HQ.",
-    url: "https://rumidesign.tech/",
+    url: "https://geniusanonymous.org/",
     type: "website",
   },
   twitter: {
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   alternates: {
-    canonical: "https://rumidesign.tech/",
+    canonical: "https://geniusanonymous.org/",
   },
 };
 

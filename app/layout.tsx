@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 const siteName = "Lawrence Corso • Pluto Smoke";
-const siteUrl = "https://rumidesign.tech";
+const siteUrl = "https://geniusanonymous.org";
 const siteTitle =
   "Lawrence Corso (Pluto Smoke) | Night-Mode Visionary & Guardian of Outcasts";
 const siteDescription =

@@ -337,7 +337,7 @@ export const metadata: Metadata = {
     title: "Muse • Lawrence 'Pluto Smoke' Corso",
     description:
       "Curated mantras and insights from Lawrence 'Pluto Smoke' Corso for rebels building Earth homes and future movements.",
-    url: 'https://rumidesign.tech/muse',
+    url: 'https://geniusanonymous.org/muse',
     type: 'website',
   },
   twitter: {
@@ -347,7 +347,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
   },
   alternates: {
-    canonical: 'https://rumidesign.tech/muse',
+    canonical: 'https://geniusanonymous.org/muse',
   },
 };
 

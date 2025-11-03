@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: "Manifesto | Lawrence 'Pluto Smoke' Corso",
     description:
       "Dive into Pluto Smoke's guiding principles of love-first innovation, Earth protection, and relentless support for the underdogs.",
-    url: "https://rumidesign.tech/manifesto",
+    url: "https://geniusanonymous.org/manifesto",
     type: "article",
   },
   twitter: {
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   alternates: {
-    canonical: "https://rumidesign.tech/manifesto",
+    canonical: "https://geniusanonymous.org/manifesto",
   },
 };
 
