@@ -56,13 +56,6 @@ export function middleware(request: NextRequest) {
     response.headers.set(key, value);
   });
   
-  // Additional security for admin routes
-  if (request.nextUrl.pathname.startsWith('/admin')) {
-    // Add extra security headers for admin pages
-    response.headers.set('X-Robots-Tag', 'noindex, nofollow');
-    response.headers.set('Cache-Control', 'no-cache, no-store, must-revalidate, private');
-  }
-  
   // Log suspicious patterns
   const userAgent = request.headers.get('user-agent') || '';
   const suspiciousPatterns = [
