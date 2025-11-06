@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 const siteName = "Lawrence Corso • Pluto Smoke";
 const siteUrl = "https://geniusanonymous.org";
 const siteTitle =
-  "Lawrence Corso (Pluto Smoke) | Night-Mode Visionary & Guardian of Outcasts";
+  "Larry (Lawrence) Corso | Palos Park Development & Design Visionary";
 const siteDescription =
-  "Lawrence “Pluto Smoke” Corso crafts night-mode product strategy, Earth home ecosystems, and crowdfunding campaigns that champion outcasts, rebels, and future-focused communities.";
+  "Lawrence “Larry” Corso is a Palos Park, Illinois development and design lead crafting night-mode product strategy, Earth home ecosystems, and crowdfunding campaigns that champion outcasts, rebels, and future-focused communities.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -38,6 +38,12 @@ export const metadata: Metadata = {
     "supporting the outcasts",
     "crowdfunding strategist",
     "brand storytelling",
+    "Palos Park development",
+    "Palos Park web design",
+    "Palos Park creative director",
+    "Chicago Southland developer",
+    "Chicago Southland designer",
+    "custom product design Palos Park",
     "portfolio",
     "Pluto Smoke portfolio",
   ],
@@ -125,7 +131,7 @@ export default function RootLayout({
               "url": siteUrl,
               "description": siteDescription,
               "jobTitle":
-                "Creative Technologist & Night-Mode Product Visionary",
+                "Palos Park Development & Design Lead, Creative Technologist & Night-Mode Product Visionary",
               "brand": {
                 "@type": "Brand",
                 "name": "Pluto Smoke",
@@ -133,6 +139,13 @@ export default function RootLayout({
                   "Night-mode product visionary supporting the outcasts.",
                 "url": siteUrl,
                 "logo": `${siteUrl}/logo.svg`,
+              },
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Palos Park",
+                "addressRegion": "IL",
+                "postalCode": "60464",
+                "addressCountry": "US",
               },
               "sameAs": [
                 "https://twitter.com/rumidesign",
@@ -144,14 +157,58 @@ export default function RootLayout({
                 "supporting the outcasts",
                 "digital brand strategy",
                 "creative technology",
+                "Palos Park development",
+                "Palos Park design",
               ],
               "contactPoint": {
                 "@type": "ContactPoint",
                 "contactType": "partnership inquiries",
                 "email": "mailto:lawrence@rumidesign.tech",
-                "areaServed": ["US", "Global"],
+                "areaServed": [
+                  "Palos Park IL",
+                  "Chicago Southland",
+                  "United States",
+                  "Global",
+                ],
                 "availableLanguage": ["English"],
               },
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "ProfessionalService",
+              "name": "Pluto Smoke Development & Design Studio",
+              "image": `${siteUrl}/marketing-logo.png`,
+              "url": siteUrl,
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Palos Park",
+                "addressRegion": "IL",
+                "postalCode": "60464",
+                "addressCountry": "US",
+              },
+              "areaServed": [
+                "Palos Park",
+                "Chicago Southland",
+                "Southwest Suburbs",
+              ],
+              "priceRange": "$$$",
+              "serviceType": [
+                "Web development",
+                "Brand and product design",
+                "Crowdfunding strategy",
+                "Creative direction",
+              ],
+              "email": "lawrence@rumidesign.tech",
+              "founder": "Lawrence Corso",
+              "sameAs": [
+                "https://twitter.com/rumidesign",
+                "https://www.linkedin.com/in/larrycorso",
+              ],
             }),
           }}
         />

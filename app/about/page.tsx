@@ -3,29 +3,31 @@ import Link from "next/link";
 import Navigation from "@/components/Navigation";
 
 export const metadata: Metadata = {
-  title: "About Lawrence Corso | Pluto Smoke Mission",
+  title: "About Lawrence Corso | Palos Park Development & Design Mission",
   description:
-    "Meet Lawrence 'Pluto Smoke' Corso: a night-mode strategist building Earth home futures, uplifting outcasts, and crafting bold digital visions.",
+    "Meet Lawrence “Larry” Corso of Palos Park, IL: a night-mode developer and designer building Earth home futures, uplifting outcasts, and delivering bespoke digital experiences for Chicago Southland founders.",
   keywords: [
     "Lawrence Corso",
     "Larry Corso",
-    "Pluto Smoke mission",
+    "Palos Park developer",
+    "Palos Park designer",
+    "Chicago Southland creative technologist",
     "supporting the outcasts",
     "Earth homes strategist",
     "digital guardian",
     "creative technologist",
   ],
   openGraph: {
-    title: "About Lawrence Corso | Pluto Smoke Mission",
+    title: "About Lawrence Corso | Palos Park Development & Design Mission",
     description:
-      "Learn how Lawrence 'Pluto Smoke' Corso protects the weirdos, underdogs, and Earth through visionary digital strategy.",
+      "Learn how Lawrence “Larry” Corso protects the weirdos, underdogs, and Palos Park founders through visionary development and design strategy.",
     url: "https://geniusanonymous.org/about",
     type: "profile",
   },
   twitter: {
-    title: "About Lawrence Corso | Pluto Smoke Mission",
+    title: "About Lawrence Corso | Palos Park Development & Design Mission",
     description:
-      "Lawrence 'Pluto Smoke' Corso is a creative technologist dedicated to Earth homes, crowdfunding, and the outcasts he protects.",
+      "Lawrence “Larry” Corso is a Palos Park creative technologist dedicated to Earth homes, crowdfunding, and the outcasts he protects.",
     card: "summary_large_image",
   },
   alternates: {
@@ -114,7 +116,7 @@ export default function About() {
             <div className="lg:w-2/3 text-center lg:text-left">
               <h2 className="text-5xl font-black mb-4">
                 <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-red-400 bg-clip-text text-transparent">
-                  PLUTO SMOKE
+                  LARRY CORSO
                 </span>
               </h2>
               <p className="text-xl font-bold text-purple-400 mb-4">
@@ -128,14 +130,43 @@ export default function About() {
             </div>
           </div>
 
+          {/* Palos Park Local Roots */}
+          <div className="bg-black/60 border border-green-400/40 rounded-[24px] p-10 backdrop-blur-sm shadow-[0_0_50px_rgba(74,222,128,0.25)] text-left space-y-6">
+            <p className="text-sm uppercase tracking-[0.5em] text-green-200">
+              Palos Park • Chicago Southland
+            </p>
+            <h3 className="text-3xl sm:text-4xl font-black text-white">
+              Built in Palos Park, Designed for the World
+            </h3>
+            <p className="text-lg text-gray-200 leading-relaxed">
+              My studio sits in Palos Park, Illinois—a quiet pocket just south of Chicago where I code through the pines
+              and sketch strategies for real estate visionaries, civic champions, and boutique hospitality founders.
+              Search engines call it Palos Park development and design; I call it defending the Southland with world-class
+              engineering, interfaces, and stories.
+            </p>
+            <div className="grid gap-3 sm:grid-cols-2 text-green-100 font-semibold">
+              {[
+                "Palos Park custom web development",
+                "Boutique brand + interface design",
+                "Chicago Southland product strategy",
+                "Earth home & real estate storytelling",
+              ].map((item) => (
+                <div key={item} className="flex items-center gap-3">
+                  <span className="text-green-400">▸</span>
+                  <span>{item}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
           {/* Mission Statement */}
           <div className="bg-black/60 border border-yellow-400/50 rounded-[24px] p-12 backdrop-blur-sm shadow-[0_0_50px_rgba(255,255,0,0.2)]">
             <h2 className="text-4xl font-black mb-8 text-yellow-400">
-              PLUTO SMOKE&apos;S MANIFESTO
+              LARRY CORSO&apos;S MANIFESTO
             </h2>
             <div className="space-y-6 text-lg leading-relaxed">
               <p className="text-white/90">
-                In the shadows of corporate greed and digital conformity, I, <span className="text-purple-400 font-bold">Pluto Smoke</span>, stand as a guardian for those who dare to be different. 
+                In the shadows of corporate greed and digital conformity, I, <span className="text-purple-400 font-bold">Larry Corso</span>, stand as a guardian for those who dare to be different. 
                 <span className="text-yellow-400 font-bold"> This planet needs protectors</span>, not exploiters.
               </p>
               <p className="text-white/90">
@@ -189,7 +220,7 @@ export default function About() {
           {/* Call to Action */}
           <div className="bg-gradient-to-r from-yellow-400/20 via-orange-500/20 to-red-500/20 border border-yellow-400/50 rounded-[24px] p-10 backdrop-blur-sm">
             <h3 className="text-3xl font-black text-yellow-400 mb-6">
-              READY TO WORK WITH PLUTO SMOKE?
+              READY TO WORK WITH LARRY CORSO?
             </h3>
             <p className="text-xl text-white/90 mb-8">
               If you&apos;re fighting for something bigger than profit, if you&apos;re building for the future, 
@@ -200,7 +231,7 @@ export default function About() {
                 href="/connect"
                 className="px-12 py-4 bg-gradient-to-r from-purple-400 to-pink-500 text-white font-black text-xl rounded-[18px] hover:shadow-[0_0_30px_rgba(147,51,234,0.8)] transition-all duration-300 transform hover:scale-105"
               >
-                CONTACT PLUTO SMOKE
+                CONTACT LARRY CORSO
               </Link>
               <Link
                 href="/portfolio"

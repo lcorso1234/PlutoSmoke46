@@ -4,12 +4,14 @@ import type { ReactNode } from "react";
 const portfolioUrl = "https://geniusanonymous.org/portfolio";
 
 export const metadata: Metadata = {
-  title: "Lawrence Corso Portfolio Highlights",
+  title: "Palos Park Development & Design Portfolio | Lawrence Corso",
   description:
-    "Dive into Lawrence 'Pluto Smoke' Corso's portfolio of Earth home concepts, crowdfunding campaigns, and digital strategies built for outcasts and rebels.",
+    "Dive into Lawrence “Pluto Smoke” Corso's Palos Park portfolio of development, design, Earth home concepts, crowdfunding campaigns, and digital strategies for rebels.",
   keywords: [
     "Lawrence Corso portfolio",
     "Larry Corso work",
+    "Palos Park development portfolio",
+    "Palos Park design showcase",
     "Pluto Smoke projects",
     "Earth homes case studies",
     "supporting the outcasts",
@@ -17,16 +19,16 @@ export const metadata: Metadata = {
     "crowdfunding strategy",
   ],
   openGraph: {
-    title: "Lawrence Corso Portfolio Highlights",
+    title: "Palos Park Development & Design Portfolio | Lawrence Corso",
     description:
-      "Explore Pluto Smoke's showcase of visionary night-mode builds powering Earth homes, underdog movements, and immersive digital brands.",
+      "Explore Pluto Smoke's Palos Park showcase of visionary development and design powering Earth homes, underdog movements, and immersive digital brands.",
     url: portfolioUrl,
     type: "website",
   },
   twitter: {
-    title: "Lawrence Corso Portfolio Highlights",
+    title: "Palos Park Development & Design Portfolio | Lawrence Corso",
     description:
-      "Lawrence 'Pluto Smoke' Corso engineers neon-powered experiences for Earth homes, outcasts, and bold founders.",
+      "Lawrence “Pluto Smoke” Corso engineers Palos Park-rooted, neon-powered experiences for Earth homes, outcasts, and bold founders.",
     card: "summary_large_image",
   },
   alternates: {

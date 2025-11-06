@@ -4,30 +4,33 @@ import ScrollAnimation from "@/components/ScrollAnimation";
 import EnhancedButton from "@/components/EnhancedButton";
 
 export const metadata: Metadata = {
-  title: "Lawrence Corso Night Vision Studio",
+  title: "Palos Park Development & Design Studio | Lawrence Corso",
   description:
-    "Explore Lawrence 'Pluto Smoke' Corso's neon-charged headquarters where Earth home innovation, crowdfunding strategies, and support for the outcasts ignite after dark.",
+    "Lawrence “Larry” Corso (Pluto Smoke) leads a Palos Park, IL development and design studio delivering night-mode web builds, brand systems, and crowdfunding strategy for rebels and real estate visionaries.",
   keywords: [
+    "Palos Park development",
+    "Palos Park design",
+    "Palos Park web developer",
     "Lawrence Corso",
     "Larry Corso",
     "Pluto Smoke",
     "night-mode strategist",
     "Earth homes visionary",
-    "supporting the outcasts",
     "crowdfunding strategist",
     "creative technologist portfolio",
+    "Chicago Southland product designer",
   ],
   openGraph: {
-    title: "Lawrence Corso Night Vision Studio",
+    title: "Palos Park Development & Design Studio | Lawrence Corso",
     description:
-      "Discover how Lawrence 'Pluto Smoke' Corso powers Earth home ecosystems, underdog movements, and visionary crowdfunding campaigns from his nocturnal HQ.",
+      "Discover how Lawrence “Pluto Smoke” Corso powers Palos Park development projects, Earth home ecosystems, underdog movements, and visionary crowdfunding campaigns from his nocturnal HQ.",
     url: "https://geniusanonymous.org/",
     type: "website",
   },
   twitter: {
-    title: "Lawrence Corso Night Vision Studio",
+    title: "Palos Park Development & Design Studio | Lawrence Corso",
     description:
-      "Lawrence 'Pluto Smoke' Corso builds night-mode strategy, Earth home experiences, and support systems for outcasts and rebels.",
+      "Lawrence “Pluto Smoke” Corso builds Palos Park-focused development and design systems for Earth homes, outcasts, and bold founders.",
     card: "summary_large_image",
   },
   alternates: {
@@ -49,6 +52,9 @@ export default function Home() {
                   I DON&apos;T WORK FOR YOU
                 </span>
               </h1>
+              <p className="text-gray-200 text-lg sm:text-xl font-semibold tracking-[0.2em] uppercase">
+                Palos Park • Development &amp; Design • Lawrence &quot;Larry&quot; Corso
+              </p>
             </ScrollAnimation>
 
             {/* Night Work Declaration */}
@@ -110,6 +116,40 @@ export default function Home() {
                   <span className="text-4xl animate-pulse">💎</span>
                   <span className="mx-4 text-yellow-400 font-mono text-lg">PRECISION • ARTISTRY • RESULTS</span>
                   <span className="text-4xl animate-pulse">💎</span>
+                </div>
+              </div>
+            </ScrollAnimation>
+
+            {/* Palos Park Local SEO Section */}
+            <ScrollAnimation animation="fadeInUp" delay={1.6}>
+              <div className="mb-24 bg-black/60 border border-yellow-400/40 rounded-[28px] p-8 sm:p-12 text-left">
+                <p className="text-base uppercase tracking-[0.4em] text-yellow-200 mb-6">
+                  Palos Park • Chicago Southland
+                </p>
+                <h3 className="text-3xl sm:text-4xl font-black text-white mb-6">
+                  Palos Park Development &amp; Design for Builders, Dreamers, and Rebels
+                </h3>
+                <p className="text-lg sm:text-xl text-gray-200 leading-relaxed mb-6">
+                  From a studio hidden in Palos Park, IL, I craft bespoke web development, experience design,
+                  and storytelling systems for custom homebuilders, nonprofits, hospitality brands, and anyone
+                  determined to protect the outcasts. Search for Palos Park development, Palos Park design, or
+                  Chicago Southland creative direction—you&apos;ll land right here.
+                </p>
+                <div className="grid gap-4 sm:grid-cols-2">
+                  {[
+                    "Palos Park web development & SEO",
+                    "High-touch brand + product design",
+                    "Real estate & Earth home storytelling",
+                    "Crowdfunding campaigns that convert",
+                  ].map((item) => (
+                    <div
+                      key={item}
+                      className="flex items-center gap-3 text-yellow-100 font-semibold"
+                    >
+                      <span className="text-green-400">✦</span>
+                      <span>{item}</span>
+                    </div>
+                  ))}
                 </div>
               </div>
             </ScrollAnimation>

@@ -2,28 +2,30 @@ import type { Metadata } from "next";
 import Navigation from '@/components/Navigation';
 
 export const metadata: Metadata = {
-  title: "Connect with Lawrence Corso | Pluto Smoke Transmission",
+  title: "Connect with Lawrence Corso | Palos Park Development & Design",
   description:
-    "Send a direct transmission to Lawrence 'Pluto Smoke' Corso for Earth home collaborations, crowdfunding strategy, and support for the outcasts.",
+    "Email Lawrence “Larry” Corso in Palos Park, IL to discuss bespoke development, design systems, Earth home storytelling, and crowdfunding strategy for the Chicago Southland.",
   keywords: [
     "contact Lawrence Corso",
     "connect with Larry Corso",
+    "Palos Park web development contact",
+    "Palos Park design studio inquiry",
     "Pluto Smoke contact",
     "Earth homes collaborations",
     "support the outcasts",
     "crowdfunding strategist",
   ],
   openGraph: {
-    title: "Connect with Lawrence Corso | Pluto Smoke Transmission",
+    title: "Connect with Lawrence Corso | Palos Park Development & Design",
     description:
-      "Reach Lawrence 'Pluto Smoke' Corso for night-mode strategy, Earth home visions, and underdog alliances.",
+      "Reach Lawrence “Pluto Smoke” Corso for Palos Park development & design, Earth home visions, and underdog alliances.",
     url: "https://geniusanonymous.org/connect",
     type: "website",
   },
   twitter: {
-    title: "Connect with Lawrence Corso | Pluto Smoke Transmission",
+    title: "Connect with Lawrence Corso | Palos Park Development & Design",
     description:
-      "Open a direct channel to Lawrence 'Pluto Smoke' Corso for visionary collaborations and support for the outcasts.",
+      "Open a direct channel to Lawrence “Pluto Smoke” Corso in Palos Park for visionary development, design, and support for the outcasts.",
     card: "summary_large_image",
   },
   alternates: {
@@ -63,8 +65,12 @@ export default function Connect() {
               <h2 className="text-4xl font-black text-cyan-400 mb-6">
                 TRANSMIT YOUR VISION
               </h2>
-              <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              <p className="text-xl text-gray-300 mb-4 max-w-3xl mx-auto">
                 Ready to build something extraordinary? Click the transmission button below to open your email client and send your vision directly.
+              </p>
+              <p className="text-base text-gray-400 mb-8 max-w-3xl mx-auto">
+                I monitor this channel for Palos Park development, Chicago Southland design, bespoke product builds,
+                and Earth home storytelling partnerships.
               </p>
             </div>
 
@@ -87,8 +93,20 @@ export default function Connect() {
                   <span className="text-white font-mono ml-2">lawrence@rumidesign.tech</span>
                 </p>
                 <p className="text-sm text-gray-400">
-                  �� Communication channels are ONLINE and ready to receive your vision
+                  🛰️ Palos Park • Chicago Southland • Remote collaborators worldwide
                 </p>
+                <div className="flex flex-wrap justify-center gap-2 text-xs uppercase tracking-[0.3em] text-cyan-200 mt-4">
+                  {[
+                    "Palos Park Development",
+                    "Design Systems",
+                    "Crowdfunding Strategy",
+                    "Night-Mode Builds",
+                  ].map((tag) => (
+                    <span key={tag} className="border border-cyan-400/40 px-3 py-1 rounded-full">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
